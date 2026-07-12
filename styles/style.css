@@ -11,5 +11,83 @@ body {
     line-height: 1.5;
     min-width: 1200px;
 }
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    letter-spacing: -1px;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #1D4ED8;
+    color: #ffffff;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn-outline {
+    background-color: transparent;
+    color: #1D4ED8;
+    border: 1px solid #ffffff;
+}
+navbar {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: -0.5px;
+    width: 250px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    font-size: 15px;
+    font-weight: 500;
+    color: #27272a;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.nav-links a:hover {
+    color: #1d4ed8;
+}
+
+.nav-actions {
+    width: 250px;
+    text-align: right;
+}
+
 
 
