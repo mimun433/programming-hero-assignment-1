@@ -5,12 +5,22 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+
+    
     background-color: #ffffff;
     color: #09090b;
     line-height: 1.5;
     min-width: 1200px;
+    
+
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+
 }
+    
+
 .section-title {
     text-align: center;
     font-size: 36px;
@@ -47,7 +57,22 @@ a {
     color: #1D4ED8;
     border: 1px solid #ffffff;
 }
-navbar {
+.btn-hero{
+    display: inline-block;
+    background-color: #1D4ED8;
+    color: #ffffff;
+    padding: 13px 60px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+
+    
+
+}
+.navbar {
     background-color: #ffffff;
     border-bottom: 1px solid #ffffff;
     height: 75px;
@@ -65,7 +90,7 @@ navbar {
 .logo {
     font-weight: 800;
     font-size: 20px;
-    letter-spacing: -0.5px;
+    letter-spacing: -1px;
     width: 250px;
 }
 
@@ -75,7 +100,7 @@ navbar {
     list-style: none;
     font-size: 15px;
     font-weight: 500;
-    color: #27272a;
+    color: #575757;
     justify-content: center;
     flex-grow: 1;
 }
@@ -87,6 +112,49 @@ navbar {
 .nav-actions {
     width: 250px;
     text-align: right;
+}
+/* hero banner start */
+.hero {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), 
+    url('/banner.jpg');
+    margin: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 140px 0;
+    text-align: center;
+    width: auto;
+    height: 90vh;
+   
+    
+}
+
+.hero-content {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.hero h1 {
+    font-size: 70px;
+    font-weight: 800;
+    letter-spacing: -1.5px;
+    margin-bottom: 24px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+.hero h1 em {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 17px;
+    color: #ffffff;
+    margin-bottom: 40px;
+    line-height: 1.9;
 }
 
 
