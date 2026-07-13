@@ -221,7 +221,6 @@ a {
     color: #575757;
 }
 /* pricing section  */
-
 .pricing-section {
 
     background-color: #fafafa;
@@ -241,7 +240,9 @@ a {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+    gap: 20px;
 }
+
 
 .pricing-card {
     background: #ffffff;
@@ -251,7 +252,6 @@ a {
     display: flex;
     flex-direction: column;
 }
-
 .pricing-card.featured {
     background-color: #0D1B2A;
     color: #ffffff;
@@ -274,6 +274,18 @@ a {
     font-size: 42px;
     font-weight: 800;
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.per-person{
+display: inline-block;
+
+border-bottom: 0.1px solid #e5e7eb;
+
+}
+.per-person-1{
+    display: inline-block;
+    border-bottom:0.1px solid #ffffff;
 }
 
 .plan-price span {
@@ -286,20 +298,28 @@ a {
     list-style: none;
     margin-bottom: 40px;
     flex-grow: 1;
+
 }
 
 .plan-features li {
     font-size: 14px;
     margin-bottom: 12px;
     color: #888888;
+
 }
 
 .featured .plan-features li {
-    color: #fafafa;
+    color: #ffffff;
 }
 
 .pricing-card .btn {
     width: 100%;
+}
+.plan-features li span{
+    color: #1d4ed8;
+}
+.plan-features small{
+    color: #1D4ED8;
 }
 
 
