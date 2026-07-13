@@ -163,6 +163,7 @@ a {
     line-height: 1.2;
 }
 /* developers mentors speakers */
+
 .speakers-section {
     padding: 100px 0;
     background-color: #ffffff;
@@ -219,6 +220,86 @@ a {
     font-size: 14px;
     color: #575757;
 }
+/* pricing section  */
 
+.pricing-section {
+
+    background-color: #fafafa;
+    padding: 100px 0;
+    border-top: 1px solid #fafafa;
+}
+
+.pricing-subtitle {
+    text-align: center;
+    color: #575757;
+    font-size: 15px;
+    margin-top: -35px;
+    margin-bottom: 60px;
+}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.pricing-card {
+    background: #ffffff;
+    border: 1px solid #e4e4e7;
+    border-radius: 12px;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing-card.featured {
+    background-color: #0D1B2A;
+    color: #ffffff;
+    border-color: #0D1B2A;
+}
+
+.plan-type {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #888888;
+    margin-bottom: 16px;
+}
+
+.featured .plan-type {
+    color: #2563EB;
+}
+
+.plan-price {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.plan-price span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #888888;
+}
+
+.plan-features {
+    list-style: none;
+    margin-bottom: 40px;
+    flex-grow: 1;
+}
+
+.plan-features li {
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #888888;
+}
+
+.featured .plan-features li {
+    color: #fafafa;
+}
+
+.pricing-card .btn {
+    width: 100%;
+}
 
 
